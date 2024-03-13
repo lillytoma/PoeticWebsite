@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href="style_page1.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Information Form</title>
+</head>
+<body>
+<div class = "right">
+<h2><p><b>User Information Form</p></b></h2>
+<form action="Page2.html" method="post">
+<pre>
+  <label for="firstName">First Name:</label>
+  <input type="text" id="firstName" name="firstName" ><br>
+  
+  <label for="lastName">Last Name:</label>
+  <input type="text" id="lastName" name="lastName" ><br>
+  
+  <label for="email">Email Address:</label>
+  <input type="email" id="email" name="email"><br><br>
+</pre>
+<p>How many people are viewing this document:
+    <select name="How many people are viewing this document" size="1">
+             <option>1</option>
+             <option>2</option>
+             <option>3</option>
+             <option>4</option>
+             <option>5</option>
+    </select>
+</p>
+  <fieldset>
+    <legend>Mailing List Sign-up</legend><br>
+    <label>Add me to your mailing list <input type="radio" name="list" value="yes" checked></label><br><br>
+    <label>No thanks, I would not like to be added <input type="radio" name="list" value="no"> </label><br><br>
+   </fieldset>
+        <p style="text-align: center"><input type="submit" value="Submit"></p>
+</form>
+</div>
+</body>
+</html>
